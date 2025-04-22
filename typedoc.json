@@ -1,0 +1,46 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "out": "doc",
+  "projectDocuments": ["documents/*.md"],
+  "exclude": ["**/__tests__/**/*", "**/__mocks__/**/*"],
+  "includeVersion": true,
+  "hideGenerator": true,
+  "readme": "none",
+  "theme": "typedoc-github-theme",
+  "githubPages": true,
+  "tsconfig": "./tsconfig.json",
+  "plugin": ["typedoc-plugin-markdown", "typedoc-github-theme"],
+  "markdownItOptions": {
+    "entryPoints": ["./src/**/*.ts", "./src/**/*.tsx"],
+    "entryPointStrategy": "expand"
+  },
+  "outputs": [
+    {
+      "name": "html",
+      "path": "./docs_html",
+      "darkHighlight": true
+    },
+    {
+      "name": "html",
+      "path": "./docs_html_full_nav",
+      "options": {
+        "navigation": {
+          "includeCategories": true,
+          "includeGroups": true,
+          "excludeReferences": false,
+          "includeFolders": true
+        }
+      }
+    },
+    {
+      "name": "json",
+      "path": "./docs.json"
+    },
+    {
+      // requires typedoc-plugin-markdown
+      "name": "markdown",
+      "path": "./docs_markdown"
+    }
+  ]
+}

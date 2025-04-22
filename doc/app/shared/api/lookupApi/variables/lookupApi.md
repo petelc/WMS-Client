@@ -1,0 +1,11 @@
+[**client v0.0.1**](../../../../../README.md)
+
+***
+
+[client](../../../../../README.md) / [app/shared/api/lookupApi](../README.md) / lookupApi
+
+# Variable: lookupApi
+
+> `const` **lookupApi**: `Api`\<(`args`, `api`, `extraOptions`) => `Promise`\<`QueryReturnValue`\<`unknown`, `FetchBaseQueryError`, `FetchBaseQueryMeta`\>\>, \{ `employeeInfo`: `QueryDefinition`\<`number`, (`args`, `api`, `extraOptions`) => `Promise`\<`QueryReturnValue`\<`unknown`, `FetchBaseQueryError`, `FetchBaseQueryMeta`\>\>, `"Lookup"`, [`Employee`](../../../../models/employee/type-aliases/Employee.md), `"lookupApi"`\>; `fetchApprovalStatuses`: `QueryDefinition`\<`void`, (`args`, `api`, `extraOptions`) => `Promise`\<`QueryReturnValue`\<`unknown`, `FetchBaseQueryError`, `FetchBaseQueryMeta`\>\>, `"Lookup"`, \{ `approvalStatuses`: \[\]; \}, `"lookupApi"`\>; `fetchPriorities`: `QueryDefinition`\<`void`, (`args`, `api`, `extraOptions`) => `Promise`\<`QueryReturnValue`\<`unknown`, `FetchBaseQueryError`, `FetchBaseQueryMeta`\>\>, `"Lookup"`, \{ `priorities`: \[\]; \}, `"lookupApi"`\>; `fetchRequestTypes`: `QueryDefinition`\<`void`, (`args`, `api`, `extraOptions`) => `Promise`\<`QueryReturnValue`\<`unknown`, `FetchBaseQueryError`, `FetchBaseQueryMeta`\>\>, `"Lookup"`, \{ `requestTypes`: \[\]; \}, `"lookupApi"`\>; `fetchStatuses`: `QueryDefinition`\<`void`, (`args`, `api`, `extraOptions`) => `Promise`\<`QueryReturnValue`\<`unknown`, `FetchBaseQueryError`, `FetchBaseQueryMeta`\>\>, `"Lookup"`, \{ `statuses`: \[\]; \}, `"lookupApi"`\>; `fetchTeamManagers`: `QueryDefinition`\<`void`, (`args`, `api`, `extraOptions`) => `Promise`\<`QueryReturnValue`\<`unknown`, `FetchBaseQueryError`, `FetchBaseQueryMeta`\>\>, `"Lookup"`, \{ `teamManagers`: [`TeamManager`](../../../../../lib/types/types/type-aliases/TeamManager.md)[]; \}, `"lookupApi"`\>; `fetchTeamMembers`: `QueryDefinition`\<`number`, (`args`, `api`, `extraOptions`) => `Promise`\<`QueryReturnValue`\<`unknown`, `FetchBaseQueryError`, `FetchBaseQueryMeta`\>\>, `"Lookup"`, \{ `teamMembers`: [`User`](../../../../models/user/type-aliases/User.md)[]; \}, `"lookupApi"`\>; \}, `"lookupApi"`, `"Lookup"`, *typeof* `coreModuleName` \| *typeof* `reactHooksModuleName`\>
+
+Defined in: [src/app/shared/api/lookupApi.ts:7](https://github.com/petelc/WMS/blob/0ba5e61a5ede3de744df1a5839724fa19a2a534f/client/src/app/shared/api/lookupApi.ts#L7)
