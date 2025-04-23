@@ -1,0 +1,11 @@
+name: ./client/Publish-WMS-Documentation
+on: [push]
+jobs:
+  publish-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: erikyo/tsdoc-action@v1
+        with:
+          source_dir: ./client/*
+          output_dir: ./client/docs
+          front_page: README.md
