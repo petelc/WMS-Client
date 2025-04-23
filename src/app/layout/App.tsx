@@ -15,6 +15,8 @@ import SideBar from './SideBar';
 /**
  * @name App
  * @description Main application layout component
+ * @component App
+ * @function App
  * @constructs ThemeProvider, CssBaseline, NavBar, Outlet
  * @returns {JSX.Element}
  */
