@@ -9,3 +9,4 @@ jobs:
           source_dir: ./*
           output_dir: ./docs
           front_page: README.md
+          tsconfig: tsconfig.app.json
