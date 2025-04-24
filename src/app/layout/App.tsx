@@ -13,11 +13,11 @@ import NavBar from './NavBar';
 import SideBar from './SideBar';
 
 /**
- * @name App
- * @description Main application layout component
- * @component App
+ *
+ * @summary Main application layout component
+ *
  * @function App
- * @constructs ThemeProvider, CssBaseline, NavBar, Outlet
+ * @remarks ThemeProvider, CssBaseline, NavBar, Outlet
  * @returns {JSX.Element}
  */
 function App() {

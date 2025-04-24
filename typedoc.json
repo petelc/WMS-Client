@@ -12,7 +12,7 @@
   "tsconfig": "./tsconfig.app.json",
   "plugin": ["typedoc-plugin-markdown", "typedoc-github-theme"],
   "markdownItOptions": {
-    "entryPoints": ["./src/**/*.ts", "./src/**/*.tsx"],
+    "entryPoints": ["./**/*.ts", "./**/*.tsx"],
     "entryPointStrategy": "expand"
   },
   "outputs": [

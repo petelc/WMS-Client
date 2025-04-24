@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
 /**
  * Sidebar component
  * @type {React.FC}
- * @description Displays a sidebar with navigation links
+ * @summary Displays a sidebar with navigation links
  * @returns {JSX.Element}
  */
 export default function SideBar() {

@@ -5,10 +5,10 @@ import { GridColDef } from '@mui/x-data-grid';
  * @property {string} field - The field name of the column
  * @property {string} headerName - The display name of the column
  * @property {number} width - The width of the column
- * @name columns
- * @description Columns for the requests table
+ *
+ * @summary Columns for the requests table
  * @returns {GridColDef<rows[number]>[]}
- * @constructs GridColDef
+ *
  * @param {GridColDef<rows[number]>[]} columns
  */
 export const columns: GridColDef<rows[number]>[] = [
