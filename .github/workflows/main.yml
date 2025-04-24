@@ -23,7 +23,7 @@ jobs:
           source_dir: ./*
           output_dir: ./docs
           front_page: README.md
-          tsconfig_file: ./tsconfig.app.json
+          tsconfig_file: ../tsconfig.app.json
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
   deploy:
