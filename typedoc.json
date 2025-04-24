@@ -9,7 +9,7 @@
   "readme": "none",
   "theme": "typedoc-github-theme",
   "githubPages": true,
-  "tsconfig": "./tsconfig.app.json",
+  "tsconfig_file": "./tsconfig.app.json",
   "plugin": ["typedoc-plugin-markdown", "typedoc-github-theme"],
   "markdownItOptions": {
     "entryPoints": ["./**/*.ts", "./**/*.tsx"],
