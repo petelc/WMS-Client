@@ -2,6 +2,8 @@
 
 Created by: Peter Carroll
 
-![Dynamic JSON Badge](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2Fpetelc%2FWMS-Client%2Fblob%2Fmain%2Fpackage.json&query=%24.name)
+|                                               Library                                               |                                                   Language                                                    |                                               State                                                |                                                               IDE                                                                |
+| :-------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------: |
+| ![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) | ![Static Badge](https://img.shields.io/badge/TypeScript-blue?style=flat&label=TS&labelColor=white&color=blue) | ![image](https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white) | ![image](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white) |
 
 This is a React Application that provides the interface for the Work Management System.
