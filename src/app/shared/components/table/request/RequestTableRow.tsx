@@ -13,15 +13,10 @@ import RequestMenu from './RequestMenu';
 
 type Props = {
   request: Request;
-  refetch?: () => void;
   handleOpenModal: () => void; // Function to open the modal
 };
 
-export default function RequestTableRow({
-  request,
-  refetch,
-  handleOpenModal,
-}: Props) {
+export default function RequestTableRow({ request, handleOpenModal }: Props) {
   const [open, setOpen] = useState(false);
   const [updateRequest, { isLoading: isUpdating }] = useUpdateRequestMutation();
 
@@ -38,9 +33,6 @@ export default function RequestTableRow({
         boardDate: dayjs(new Date()).toDate(),
       },
     }).unwrap();
-    if (refetch) {
-      refetch();
-    }
   };
 
   return (

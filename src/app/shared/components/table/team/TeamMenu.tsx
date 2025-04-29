@@ -29,7 +29,7 @@ type Props = {
   isUpdating: boolean; // State to control the updating status
   openModal: boolean; // State to control the modal
   handleOpenModal: () => void; // Function to open the modal
-  handleCloseModal: () => void; // Function to close the modal
+  //handleCloseModal: () => void; // Function to close the modal
   handleViewRequest: () => void; // Function to view request
 };
 

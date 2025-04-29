@@ -14,16 +14,14 @@ import TeamMenu from './TeamMenu';
 type Props = {
   request: Request;
   handleOpenModal: () => void; // Function to open the modal
-  handleCloseModal: () => void; // Function to close the modal
   openModal: boolean; // State to control the modal
   //setOpenModal: (open: boolean) => void; // Function to set the modal state
 };
 
 export default function TeamTableRow({
   request,
-  handleOpenModal,
-  handleCloseModal,
   openModal,
+  handleOpenModal,
 }: Props) {
   const [open, setOpen] = useState(false);
   const [updateRequest, { isLoading: isUpdating }] = useUpdateRequestMutation();
@@ -67,7 +65,6 @@ export default function TeamTableRow({
           request={request}
           openMode={open}
           openModal={openModal}
-          handleCloseModal={handleCloseModal}
           isUpdating={isUpdating}
           handleOpenModal={handleOpenModal}
           handleViewRequest={handleViewRequest}
